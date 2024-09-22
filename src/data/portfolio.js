@@ -1,50 +1,70 @@
 const about = {
-  title: "Hi 👋 , I am Shehab Shalan",
+  title: "Hi 👋 , I am ",
+  name: "Ariel Berdah",
   description:
-    "I am a full stack developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste!",
-  github: "https://github.com/shehabshalan",
-  linkedin: "https://www.linkedin.com/in/shehabshalan/",
-  cv: "#",
+    "I am a Full Stack Developer with a passion for creating dynamic and responsive web applications. I have experience in various technologies and enjoy tackling complex challenges.",
+  github: "https://github.com/ArielBrdah", 
+  linkedin: "https://www.linkedin.com/in/arielcberdah/", 
+  cv: "/src/resume/arielberdah.pdf", 
 };
 
 const projects = {
   title: "Projects",
   personalProjects: [
-    {
-      title: "Youtube Clone",
-      short:
-        "Features Firebase authentication, video upload, and video streaming.",
+      {
+      title: "Signature App",
+      short: "Features digital signature management and CRM functionalities.",
       description:
-        "it is a video-sharing app built using Firebase for authentication, and data persistence. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! ",
-      technologies: ["#React.js", "#MUI", "#Firebase"],
-      github: "#",
-      demo: "#",
+        "This application allows users to manage digital signatures and offers CRM functionalities for better organization.",
+      technologies: ["#CSS", "#JavaScript", "#Laravel", "#MySQL"],
+      github: "aurasign.fr",
+      demo: "https://aurasign.fr",
+    },
+      {
+      title: "Coupon System",
+      short: "A Java J2EE application similar to Groupon.",
+      description:
+        "This application allows users to browse, purchase, and manage various coupons and discounts, providing a user-friendly interface and efficient backend processing.",
+      technologies: ["#Java", "#J2EE", "#Servlets", "#MySQL", "#CSS"],
+      github: "https://github.com/ArielBrdah/coupon-system-java", 
+      demo: "https://github.com/ArielBrdah/coupon-system-java", 
     },
     {
-      title: "Next.js Blog",
-      short:
-        "Features JWT authentication, headless CMS, and full CRUD operations.",
+      title: "Dictionary Web App",
+      short: "A web application for word definitions and synonyms.",
       description:
-        "it is a Next.js blog site built using Strapi (a headless CMS). Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! and also lorem",
-      technologies: ["#Next.js", "#MUI", "#Strapi", "#JWT"],
-      github: "#",
-      demo: "#",
+        "This application allows users to search for words and retrieve definitions, synonyms, and related information, offering an intuitive interface and fast responses.",
+      technologies: ["#Bootstrap", "#JavaScript", "#Node.js", "#React.js"],
+      github: "https://github.com/ArielBrdah/dictionary-webapp-react",
+      demo: "https://arielbrdah.github.io/dictionary-webapp-react",
     },
-    {
-      title: "File Sharing App",
-      short:
-        "Features multi-file upload, sharing links with expiration and document preview.",
+       {
+      title: "Quiz App",
+      short: "An interactive quiz application built with React.",
       description:
-        "it is a file sharing app built using the MERN stack. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste!",
-      technologies: [
-        "#React.js",
-        "#MUI",
-        "#Express.js",
-        "#Node.js",
-        "#MongoDB",
-      ],
-      github: "#",
-      demo: "#",
+        "This application allows users to take quizzes on various topics, track their scores, and view correct answers, all within a user-friendly interface.",
+      technologies: ["#React.js", "#JavaScript", "#CSS"],
+      github: "https://github.com/ArielBrdah/quiz-react-app", 
+      demo: "https://quiz-react-webapp.netlify.app", 
+    },
+    
+      {
+      title: "Dessert Ordering App",
+      short: "An application for ordering desserts online.",
+      description:
+        "This app allows users to browse a variety of desserts, place orders, and track them in real-time. It features a clean UI, secure payment integration, and user-friendly ordering flow.",
+      technologies: ["#React.js", "#Node.js",],
+      github: "https://github.com/ArielBrdah/desserts-page", 
+      demo: "https://arielbrdah.github.io/desserts-page", 
+    },
+     {
+      title: "Snake Game",
+      short: "A classic Snake game built using JavaScript.",
+      description:
+        "This is a recreation of the classic Snake game where users control a snake to eat food and grow, without hitting the walls or themselves. The game features a responsive design, real-time score tracking, and increasing difficulty.",
+      technologies: ["#JavaScript", "#HTML", "#CSS"],
+      github: "https://github.com/ArielBrdah/snake-game-js", 
+      demo: "https://arielbrdah.github.io/snake-game-js", 
     },
   ],
 };
@@ -53,14 +73,33 @@ const experience = {
   title: "Experience",
   experiences: [
     {
-      title: "Frontend Developer",
-      company: "XYZ Company",
-      duration: "Mar 2021 - Present",
+      title: "Full Stack Developer",
+      company: "ADOPT, Netanya",
+      duration: "2024",
       description:
-        "I am currently working as a frontend developer at XYZ Company. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! ",
+        "Integrated new clients into a 'lead sales and purchases' system. Developed several features to better handle trading and redesigned the CRM for a more intuitive user experience. Worked on a Dashboard for partners and clients to track activities, profits, and losses on leads.",
+      technologies: ["#PHP", "#Laravel", "#MySQL"],
+    },
+    {
+      title: "Full Stack Developer",
+      company: "Aurasoft, Netanya",
+      duration: "2022 - 2023",
+      description:
+        "Developed an electronic signature application similar to Yousign, featuring a CRM for managing signatures, used internally and as a SaaS. Revamped an insurance subscription application, enhancing the design and adding new features. Contributed to a SaaS application and system design."
+        ,
+      technologies: ["#PHP", "#Laravel", "#MySQL", "#NextJS", "#TailwindCSS"],
+    },
+    {
+      title: "Full Stack Developer",
+      company: "Nerd148, Netanya",
+      duration: "2021 - 2022",
+      description:
+        "Built websites and landing pages for marketing. Developed an accounting management application. Contributed to the development of a cryptocurrency (NFT) application, performed code reviews on the backend, and set up CI/CD pipelines.",
+      technologies: ["#NodeJS", "#React.js", "#MySQL", "#WordPress"],
     },
   ],
 };
+
 
 const skills = {
   title: "Skills",
@@ -74,18 +113,24 @@ const skills = {
         "#TypeScript",
         "#React.js",
         "#Next.js",
-        "#MUI",
         "#Node.js",
         "#Express.js",
+        "#Laravel",
+        "#PHP",
+        "#Java",
+        "#J2EE",
+        "#Servlets",
+        "#TailwindCSS",
+        "#Bootstrap"
       ],
     },
     {
       title: "Databases",
-      skills: ["#MongoDB", "#PostgreSQL", "#Firebase"],
+      skills: ["#MongoDB", "#MySQL"],
     },
     {
       title: "Others",
-      skills: ["#Git", "#Jest", "#CI/CD", "#AdobeXD"],
+      skills: ["#Git", "#Jest", "#CI/CD", "#Figma", "#Docker"],
     },
   ],
 };

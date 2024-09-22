@@ -3,10 +3,10 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { about } from "../../data/portfolio";
 import "./About.css";
 const About = () => {
-  const { title, description, cv, github, linkedin } = about;
+  const { title,name, description, cv, github, linkedin } = about;
   return (
     <section className="about" id="about">
-      <h1>{title}</h1>
+      <h1>{title}<span style={{ color: "#00ff99" }}>{name}</span></h1>
       <p>{description}</p>
       <div className="about-links">
         <a href={github} target="_blank">

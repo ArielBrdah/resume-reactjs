@@ -35,7 +35,7 @@ main {
   background-color: #3c4852;
   color: #fff;
 }
-.nextjs {
+.nextjs, .mysql {
   background-color: #000000;
   color: #fff;
 }
@@ -63,7 +63,7 @@ main {
   color: #fff;
 }
 
-.css {
+.css, .tailwindcss {
   background-color: #1f8ee7;
   color: #fff;
 }
@@ -82,12 +82,12 @@ main {
   color: #fff;
 }
 
-.firebase {
+.firebase, .java {
   background-color: #f19d0e;
   color: #fff;
 }
 
-.jest {
+.jest, .j2ee, .servlets {
   background-color: #c03a14;
   color: #fff;
 }
@@ -102,11 +102,11 @@ main {
   color: #fff;
 }
 
-.strapi {
+.strapi, .php {
   background-color: #8d75ff;
   color: #fff;
 }
-.jwt {
+.jwt, .laravel, .bootstrap {
   background-color: #d63aff;
   color: #fff;
 }

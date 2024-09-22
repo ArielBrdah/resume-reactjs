@@ -48,12 +48,12 @@ const mobileMenu = (toggleTheme, theme) => {
 };
 
 const Navbar = ({ toggleTheme, theme }) => {
-  const logo = "{SS}.";
+  const logo = "{AB}.";
   return (
     <header>
       <nav className="navbar">
         <div className="logo">
-          <h1>{logo}</h1>
+          <h1 style={{ color: "#00ff99" }}>{logo}</h1>
         </div>
         {mobileMenu(toggleTheme, theme)}
         {/* desktop menu */}

@@ -36,6 +36,22 @@ const getColorClass = (tech) => {
       return "strapi";
     case "#MUI":
       return "mui";
+  case "#Laravel":
+      return "laravel";
+  case "#PHP":
+      return "php";
+        case "#Bootstrap":
+      return "bootstrap";
+    case "#TailwindCSS":
+      return "tailwindcss";
+      case "#Java":
+        return "java";
+    case "#J2EE":
+      return "j2ee";
+    case "#Servlets":
+      return "servlets";
+      case "#MySQL":
+        return "mysql";
     default:
       return "";
   }
