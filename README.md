@@ -1,14 +1,4 @@
 
-# Minimal React Portfolio
-
-it is a minimal React portfolio that you can use to present yourself and list your projects, experiences and skills.
-
-## Demo
-
-https://minimal-reactjs-portfolio.netlify.app/
-
-![Animation](https://user-images.githubusercontent.com/30008865/178179020-20ec6512-415f-4f44-8982-84d85c7c46a3.gif)
-
 
 ## Colors 
 
@@ -36,21 +26,6 @@ https://minimal-reactjs-portfolio.netlify.app/
 - Contact
 - Footer
 
-
-## Installation
-
-Install react-personal-portfolio with npm
-
-
-```
-  git clone https://github.com/shehabshalan/react-personal-portfolio
-  cd react-personal-portfolio
-```
-```
-  npm run dev
-```
-
-*Note: I used Vite*
 
 ## Tech Stack
 HTML, CSS, React, react-icons
