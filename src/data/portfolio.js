@@ -5,7 +5,7 @@ const about = {
     "I am a Full Stack Developer with a passion for creating dynamic and responsive web applications. I have experience in various technologies and enjoy tackling complex challenges.",
   github: "https://github.com/ArielBrdah", 
   linkedin: "https://www.linkedin.com/in/arielcberdah/", 
-  cv: "https://drive.google.com/file/d/1wpTB4rvDRkz4dOaxIhv6v_9PdxJagGQY/view?usp=sharing", 
+cv: "https://drive.google.com/file/d/1ZECXMUnL9khbc1CQw4o1xaTBlUvKz_Px/view?usp=sharing",
 };
 
 const projects = {
